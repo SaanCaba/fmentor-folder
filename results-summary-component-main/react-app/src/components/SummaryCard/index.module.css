@@ -1,0 +1,42 @@
+.summarySection {
+  height: 340px;
+  width: 220px;
+}
+
+@media screen and (max-width: 767px) {
+  /* Aquí van los estilos para móviles */
+  .summarySection {
+    height: 100%;
+    width: 100%;
+  }
+  .buttonContainer button {
+    padding: 30px;
+  }
+}
+
+.summaryLayout {
+  padding: 23px;
+}
+
+.summaryItems {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 15px;
+}
+
+.buttonContainer {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.buttonContainer button {
+  border: none;
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 25px;
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+  font-weight: 700;
+}

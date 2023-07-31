@@ -1,0 +1,30 @@
+.summaryContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+.summaryContainerText {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.resultText {
+  color: black;
+  font-weight: 700;
+}
+.hundred {
+  color: rgb(198, 196, 196);
+}
+
+.summaryContainerNumbers {
+  display: flex;
+  gap: 3px;
+}
+
+.bar {
+  color: gray;
+}

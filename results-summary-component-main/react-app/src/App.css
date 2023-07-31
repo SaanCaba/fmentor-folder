@@ -1,0 +1,19 @@
+.shadow-box {
+  display: flex;
+  box-shadow: 2px 1px 5px 5px rgba(166, 160, 160, 0.3);
+  -webkit-box-shadow: 2px 1px 5px 5px rgba(166, 160, 160, 0.3);
+  -moz-box-shadow: 2px 1px 5px 5px rgba(166, 160, 160, 0.3);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  /* Aquí van los estilos para móviles */
+  .shadow-box {
+    flex-direction: column;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    width: 100%;
+    height: 100%;
+  }
+}
