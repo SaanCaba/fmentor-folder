@@ -1,0 +1,25 @@
+.svgIcon {
+  width: 124px;
+  height: 35px;
+}
+
+.unordedList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navMobile {
+  display: unset;
+}
+
+.buttonSideMenu {
+  background-color: transparent;
+  border: none;
+}
+
+@media screen and (min-width: 1024px) {
+  /* Aquí van los estilos para escritorios */
+  .navMobile {
+    display: none;
+  }
+}

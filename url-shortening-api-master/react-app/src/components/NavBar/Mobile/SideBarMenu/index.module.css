@@ -1,0 +1,89 @@
+.sideBarContainer {
+  position: fixed;
+  height: 100vh;
+  width: 100vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(26, 23, 23, 0.305);
+  animation: render 1s ease;
+}
+
+@keyframes render {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.sidebar {
+  background-color: white;
+  height: 100%;
+  animation: renderSideBar 1s ease;
+  width: 200px;
+}
+@keyframes renderSideBar {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 200px;
+  }
+}
+
+.btnClose {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+}
+
+.sectionsSideBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.sectionsSideBar li {
+  font-size: 14px;
+  color: var(--gray);
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+.sectionsSideBar li:hover {
+  font-size: 14px;
+  color: var(--dark-violet);
+}
+
+.btnAuth {
+  border: none;
+  background-color: transparent;
+  font-weight: 700;
+  color: var(--gray);
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 30px;
+  transition: all 1s ease;
+  white-space: nowrap;
+}
+
+.btnAuth:hover {
+  background-color: var(--cyan);
+  color: white;
+}
+
+.btnLi {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 5px;
+}

@@ -1,0 +1,14 @@
+.header {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  /* Aquí van los estilos para móviles */
+  .header {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+  }
+}

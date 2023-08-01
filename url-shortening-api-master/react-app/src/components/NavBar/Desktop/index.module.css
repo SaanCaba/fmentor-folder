@@ -1,0 +1,57 @@
+.svgIcon {
+  width: 150px;
+  height: 35px;
+}
+
+.unordedList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerInformationContainer {
+  display: flex;
+  height: min-content;
+  gap: 30px;
+}
+
+.headerInformationContainer li {
+  font-size: 14px;
+  color: var(--gray);
+  cursor: pointer;
+  transition: all 1s ease;
+}
+.headerInformationContainer li:hover {
+  font-size: 14px;
+  color: var(--dark-violet);
+}
+
+.headerUserAuth {
+  display: flex;
+  gap: 15px;
+}
+
+.btnAuth {
+  border: none;
+  background-color: transparent;
+  font-weight: 700;
+  color: var(--gray);
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 30px;
+  transition: all 1s ease;
+}
+
+.btnAuth:hover {
+  background-color: var(--cyan);
+  color: white;
+}
+
+@media screen and (max-width: 767px) {
+  /* Aquí van los estilos para móviles */
+  .navDesktop {
+    display: none;
+  }
+}
