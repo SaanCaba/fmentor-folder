@@ -1,10 +1,9 @@
 import DesktopMenu from './Desktop';
 import MobileMenu from './Mobile';
-import styles from './index.module.css';
 
 function NavBar() {
   return (
-    <header className={styles.header}>
+    <header>
       <DesktopMenu />
       <MobileMenu />
     </header>
