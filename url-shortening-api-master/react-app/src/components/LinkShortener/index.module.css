@@ -1,0 +1,20 @@
+.linkShortenerSection {
+  transform: translateY(50%);
+}
+.linkShortenerBgImage {
+  width: 100%;
+  background-image: url('../../assets/bg-shorten-desktop.svg');
+  height: 110px;
+  position: relative;
+  border-radius: 7px;
+}
+.customBg {
+  position: absolute;
+  background-color: hsl(242, 55%, 18%);
+  bottom: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  border-radius: 7px;
+}
