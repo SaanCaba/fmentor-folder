@@ -1,0 +1,42 @@
+.linksContainers {
+  background-color: white;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+}
+.oriContainer span {
+  color: black;
+}
+
+.shortenedContainer {
+  display: flex;
+  gap: 25px;
+}
+
+.shortenedContainer span {
+  color: var(--cyan);
+}
+
+.shortenedContainer button {
+  background-color: var(--cyan);
+  border: none;
+  color: white;
+  border-radius: 3px;
+  font-weight: 700;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+
+.shortenedContainer button:hover {
+  background-color: var(--ocean);
+}

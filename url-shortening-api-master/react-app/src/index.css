@@ -7,6 +7,8 @@
   --cyan: hsl(180, 66%, 49%);
   --cyanhover: hsl(180, 63%, 37%);
   --grayCyan: #f3f3f4;
+  --error: #f7a6a6;
+  --ocean: hsl(242, 55%, 18%);
 }
 
 body {

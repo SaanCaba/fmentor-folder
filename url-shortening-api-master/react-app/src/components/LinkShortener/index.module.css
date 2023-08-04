@@ -10,11 +10,24 @@
 }
 .customBg {
   position: absolute;
-  background-color: hsl(242, 55%, 18%);
+  background-color: var(--ocean);
   bottom: 0;
   top: 0;
   height: 100%;
   width: 100%;
   z-index: -1;
   border-radius: 7px;
+}
+
+.errorContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.errorText {
+  margin: auto;
+  font-size: 14.5px;
+  padding-top: 5px;
+  color: var(--error);
 }
