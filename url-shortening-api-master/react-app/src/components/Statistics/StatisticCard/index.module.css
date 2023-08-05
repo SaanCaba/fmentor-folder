@@ -1,0 +1,45 @@
+.cardContainer {
+  background-color: white;
+  border-radius: 4px;
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 30px;
+  padding-top: 0px;
+  height: min-content;
+}
+
+.cardContainer:nth-child(3) {
+  margin-top: 40px;
+}
+
+.cardContainer:nth-child(4) {
+  margin-top: 80px;
+}
+
+.iconContainer {
+  border-radius: 100%;
+  background-color: var(--ocean);
+  width: fit-content;
+  height: min-content;
+  padding: 14px;
+  transform: translateY(-35px);
+}
+
+.textContainer {
+  display: grid;
+  gap: 10px;
+}
+
+.iconContainer svg {
+  color: var(--cyan);
+}
+
+.title {
+  font-weight: 700;
+}
+
+.paragraph {
+  color: var(--gray);
+  font-size: 13px;
+}

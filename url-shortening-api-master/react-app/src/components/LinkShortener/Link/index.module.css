@@ -1,14 +1,14 @@
 .linksContainers {
   background-color: white;
-  padding-top: 13px;
-  padding-bottom: 13px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 7px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 15px;
+  font-size: 13px;
 }
 .oriContainer span {
   color: black;
@@ -17,6 +17,7 @@
 .shortenedContainer {
   display: flex;
   gap: 25px;
+  align-items: center;
 }
 
 .shortenedContainer span {

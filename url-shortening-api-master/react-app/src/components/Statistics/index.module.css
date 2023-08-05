@@ -1,8 +1,36 @@
 .statisticsSection {
-  height: 100vh;
+  height: min-content;
   width: 100%;
   left: 0;
   position: absolute;
   background-color: var(--grayCyan);
   z-index: -1;
+}
+
+.statisticsTitle {
+  padding-top: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.statisticsTitle h1 {
+  color: var(--ocean);
+}
+
+.paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--gray);
+  font-size: 13px;
+  padding-top: 5px;
+}
+
+.cardsContainer {
+  display: flex;
+  gap: 30px;
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
