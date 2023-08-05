@@ -1,0 +1,22 @@
+.loaderFirstCape {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 3px solid;
+  border-color: #e4e4ed;
+  border-top-color: #766df4;
+  border-bottom-color: #766df4;
+  animation: rotate 1s infinite linear;
+  background-color: transparent;
+}
+@keyframes rotate {
+  to {
+    transform: rotate(1turn);
+  }
+}
+@media screen and (max-width: 767px) {
+  .loaderFirstCape {
+    width: 14px;
+    height: 14px;
+  }
+}

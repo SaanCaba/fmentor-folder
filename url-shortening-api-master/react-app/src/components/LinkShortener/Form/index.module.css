@@ -23,23 +23,22 @@
   outline: none;
 }
 
-.btnContainer {
-  width: 100%;
-}
-
-.btnContainer input {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 23px;
-  padding-right: 23px;
-  border: none;
-  background-color: var(--cyan);
-  color: white;
-  font-weight: 700;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: all 1s ease;
-}
-.btnContainer input:hover {
-  background-color: var(--cyanhover);
+@media screen and (max-width: 767px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    min-width: 320px;
+  }
+  .linkContainer input {
+    width: 100%;
+    font-size: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .error input {
+    border: 2px solid var(--error);
+    color: var(--error);
+  }
 }

@@ -24,7 +24,6 @@
 }
 
 .shortenedContainer button {
-  background-color: var(--cyan);
   border: none;
   color: white;
   border-radius: 3px;
@@ -34,9 +33,27 @@
   padding-left: 20px;
   padding-right: 20px;
   transition: all 1s ease;
+}
+
+.noCopied {
+  background-color: var(--cyan);
   cursor: pointer;
 }
 
-.shortenedContainer button:hover {
+.noCopied:hover {
   background-color: var(--ocean);
+}
+
+.copied {
+  background-color: var(--ocean);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .linksContainers {
+    flex-direction: column;
+  }
+  .shortenedContainer {
+    gap: 10px;
+  }
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import { useState } from 'react';
 import { Links } from '..';
 
 import styles from './index.module.css';
@@ -8,6 +8,11 @@ interface Props {
 }
 
 function Link({ link }: Props) {
+  const [copied, setCopied] = useState(false);
+  const onCopy = () => {
+    navigator.clipboard.writeText(link.shortened);
+    setCopied(!copied);
+  };
   return (
     <div className={styles.linksContainers}>
       <div className={styles.oriContainer}>
@@ -15,7 +20,12 @@ function Link({ link }: Props) {
       </div>
       <div className={styles.shortenedContainer}>
         <span>{link.shortened}</span>
-        <button>Copy</button>
+        <button
+          className={copied ? styles.copied : styles.noCopied}
+          onClick={onCopy}
+        >
+          {copied ? 'Copied!' : 'Copy'}
+        </button>
       </div>
     </div>
   );
