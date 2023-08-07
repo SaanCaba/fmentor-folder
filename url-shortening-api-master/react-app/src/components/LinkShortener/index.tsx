@@ -6,6 +6,7 @@ import AllLinks from './AllLinks';
 import { ErrorTypes, SuccessShortened } from '../../types';
 import { shortenText } from './utils/shortenText';
 import Loading from '../Loading';
+import Layout from '../Layout';
 
 export interface Links {
   original: string;
@@ -44,24 +45,26 @@ function LinkShortener() {
     }
   };
   return (
-    <section className={styles.linkShortenerSection}>
-      <div className={styles.linkShortenerBgImage}>
-        <div className={styles.customBg}></div>
-        <Form error={error} setError={setError} onSubmit={onSubmit}>
-          <div className={styles.btnContainer}>
-            <button type="submit">
-              {loading ? <Loading /> : 'Shorten it!'}
-            </button>
-          </div>
-        </Form>
-        {error && (
-          <div className={styles.errorContainer}>
-            <span className={styles.errorText}>{shortenText(error)}</span>
-          </div>
-        )}
-      </div>
-      <AllLinks links={allLinks} />
-    </section>
+    <Layout>
+      <section className={styles.linkShortenerSection}>
+        <div className={styles.linkShortenerBgImage}>
+          <div className={styles.customBg}></div>
+          <Form error={error} setError={setError} onSubmit={onSubmit}>
+            <div className={styles.btnContainer}>
+              <button type="submit">
+                {loading ? <Loading /> : 'Shorten it!'}
+              </button>
+            </div>
+          </Form>
+          {error && (
+            <div className={styles.errorContainer}>
+              <span className={styles.errorText}>{shortenText(error)}</span>
+            </div>
+          )}
+        </div>
+        <AllLinks links={allLinks} />
+      </section>
+    </Layout>
   );
 }
 

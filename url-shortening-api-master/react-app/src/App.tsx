@@ -1,4 +1,5 @@
 import './App.css';
+import Boost from './components/Boost';
 import GetStarted from './components/GetStarted';
 import Layout from './components/Layout';
 import LinkShortener from './components/LinkShortener';
@@ -7,14 +8,15 @@ import Statistics from './components/Statistics';
 
 function App() {
   return (
-    <Layout>
+    <>
       <NavBar />
       <main>
         <GetStarted />
         <LinkShortener />
         <Statistics />
+        <Boost />
       </main>
-    </Layout>
+    </>
   );
 }
 

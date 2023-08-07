@@ -1,11 +1,14 @@
+import Layout from '../Layout';
 import DesktopMenu from './Desktop';
 import MobileMenu from './Mobile';
 
 function NavBar() {
   return (
     <header>
-      <DesktopMenu />
-      <MobileMenu />
+      <Layout>
+        <DesktopMenu />
+        <MobileMenu />
+      </Layout>
     </header>
   );
 }

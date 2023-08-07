@@ -1,8 +1,6 @@
 .statisticsSection {
   height: min-content;
   width: 100%;
-  left: 0;
-  position: absolute;
   background-color: var(--grayCyan);
   z-index: -1;
 }
