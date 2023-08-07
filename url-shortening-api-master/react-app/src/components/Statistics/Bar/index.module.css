@@ -8,3 +8,12 @@
   left: 300px;
   top: 45%;
 }
+
+@media screen and (max-width: 767px) {
+  .bar {
+    width: 10px;
+    height: 380px;
+    left: 48.5%;
+    top: 25%;
+  }
+}
