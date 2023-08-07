@@ -1,4 +1,35 @@
 .boostSection {
   position: relative;
   width: 100%;
+  background-image: url('../../assets/bg-shorten-desktop.svg');
+  height: 200px;
+  left: 0;
+  background-position: 80%;
+  background-size: 150%;
+}
+
+.bgCustom {
+}
+
+.bgBlack {
+  position: absolute;
+  background-color: var(--ocean);
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 100%;
+}
+
+.contentContainer h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 28px;
 }

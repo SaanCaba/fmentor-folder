@@ -11,8 +11,8 @@ interface Props {
 function AllLinks({ links }: Props) {
   return (
     <div className={styles.allLinks}>
-      {links.map((link) => {
-        return <Link link={link} />;
+      {links.map((link, i) => {
+        return <Link key={i} link={link} />;
       })}
     </div>
   );

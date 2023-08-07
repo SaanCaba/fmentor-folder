@@ -1,0 +1,32 @@
+.footerBg {
+  width: 100%;
+  background-color: black;
+}
+
+.footerGrid {
+  display: grid;
+  grid-template-columns: 300px 1fr 1fr 1fr 1fr;
+  color: white;
+}
+
+.footerGrid div:last-child {
+}
+
+.footerSection {
+  font-weight: 700;
+}
+
+.footerSectionList {
+  padding-top: 15px;
+}
+
+.footerSectionList li {
+  color: var(--gray);
+  font-size: 14px;
+  transition: all 1s ease;
+}
+
+.footerSectionList li:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}

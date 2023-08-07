@@ -1,5 +1,6 @@
 import './App.css';
 import Boost from './components/Boost';
+import Footer from './components/Footer';
 import GetStarted from './components/GetStarted';
 import Layout from './components/Layout';
 import LinkShortener from './components/LinkShortener';
@@ -16,6 +17,7 @@ function App() {
         <Statistics />
         <Boost />
       </main>
+      <Footer />
     </>
   );
 }
