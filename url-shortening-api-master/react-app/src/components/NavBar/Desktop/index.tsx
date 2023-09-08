@@ -1,4 +1,3 @@
-import SideBarMenu from '../Mobile/SideBarMenu';
 import styles from './index.module.css';
 
 function DesktopMenu() {

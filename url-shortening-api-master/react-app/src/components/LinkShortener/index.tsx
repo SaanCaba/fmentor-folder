@@ -3,7 +3,7 @@ import { API_URL } from '../../constants';
 import Form from './Form';
 import styles from './index.module.css';
 import AllLinks from './AllLinks';
-import { ErrorTypes, SuccessShortened } from '../../types';
+import { SuccessShortened } from '../../types';
 import { shortenText } from './utils/shortenText';
 import Loading from '../Loading';
 import Layout from '../Layout';

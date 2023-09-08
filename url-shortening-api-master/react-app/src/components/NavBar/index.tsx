@@ -1,4 +1,3 @@
-import Layout from '../Layout';
 import DesktopMenu from './Desktop';
 import MobileMenu from './Mobile';
 import styles from './index.module.css';

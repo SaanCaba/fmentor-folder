@@ -1,4 +1,3 @@
-import React from 'react';
 import { type Links } from '..';
 import Link from '../Link';
 
