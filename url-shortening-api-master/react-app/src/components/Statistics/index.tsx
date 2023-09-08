@@ -21,8 +21,10 @@ function Statistics() {
         <div className={styles.statisticsTitle}>
           <h1>Advanced Statistics</h1>
           <p className={styles.paragraph}>
-            <span>Track how your links are performing across the web with</span>
-            <span>our advanced statistics dashboard</span>
+            <span>
+              Track how your links are performing across the web with our
+              advanced statistics dashboard
+            </span>
           </p>
         </div>
         <div className={styles.cardsContainer}>

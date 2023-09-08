@@ -1,11 +1,11 @@
 .svgTag {
-  transform: scale(0.8);
+  transform: scale(1);
 }
 @media screen and (max-width: 767px) {
   /* Aquí van los estilos para móviles */
   .svgTag {
-    transform: scale(0.7);
+    transform: scale(0.5);
     position: absolute;
-    left: -73.5px;
+    left: -190.5px;
   }
 }

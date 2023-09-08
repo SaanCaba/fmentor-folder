@@ -17,9 +17,7 @@
 }
 
 .paragraph {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
   color: var(--gray);
   font-size: 13px;
   padding-top: 5px;
@@ -35,5 +33,8 @@
 @media screen and (max-width: 767px) {
   .cardsContainer {
     flex-direction: column;
+  }
+  .paragraph {
+    font-size: 15px;
   }
 }

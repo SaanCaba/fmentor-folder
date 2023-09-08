@@ -33,3 +33,9 @@
   font-weight: 700;
   font-size: 28px;
 }
+@media screen and (max-width: 767px) {
+  /* Aquí van los estilos para móviles */
+  .boostSection {
+    background-size: 600%;
+  }
+}

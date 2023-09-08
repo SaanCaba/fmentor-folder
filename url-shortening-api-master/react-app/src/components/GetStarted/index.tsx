@@ -1,5 +1,3 @@
-import React from 'react';
-
 import styles from './index.module.css';
 import GetStartedSvg from './GetStartedSvg';
 import GetStartedButton from '../Helpers/GetStartedButton';

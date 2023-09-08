@@ -1,14 +1,12 @@
 import Layout from '../Layout';
 import DesktopMenu from './Desktop';
 import MobileMenu from './Mobile';
-
+import styles from './index.module.css';
 function NavBar() {
   return (
-    <header>
-      <Layout>
-        <DesktopMenu />
-        <MobileMenu />
-      </Layout>
+    <header className={styles.header}>
+      <DesktopMenu />
+      <MobileMenu />
     </header>
   );
 }

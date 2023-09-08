@@ -43,6 +43,7 @@
 .paragraph {
   color: var(--gray);
   font-size: 13px;
+  padding: 8px;
 }
 @media screen and (max-width: 767px) {
   .cardContainer {

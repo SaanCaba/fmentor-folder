@@ -9,9 +9,6 @@
   color: white;
 }
 
-.footerGrid div:last-child {
-}
-
 .footerSection {
   font-weight: 700;
 }
@@ -29,4 +26,32 @@
 .footerSectionList li:hover {
   color: var(--cyan);
   cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  /* Aquí van los estilos para móviles */
+  .footerGrid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+  }
+  .footerGrid div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footerGrid div:last-child {
+    flex-direction: row;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .footerLogo {
+    color: red;
+    background-color: red;
+    scale: 0.5;
+    margin: auto;
+  }
 }
